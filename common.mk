@@ -254,4 +254,4 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Inherit from proprietary blobs
-$(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
